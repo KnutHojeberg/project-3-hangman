@@ -67,7 +67,7 @@ def display_hangman(tries):
     """
     All the steps in hangman explained
     """
-    stages = [  # final state: head, torso, both arms, and both legs
+    stages = [  # final stage: head, torso, both arms, and both legs
                 """
                    --------
                    |      |
