@@ -15,19 +15,19 @@
 
 ## Features
 - The user is greeted with a welcome message. When the user starts the game, it will ask the user to enter their name. The user then presses enter and  a hello message will appear displaying their name and the game will begin.
-![alt text](assets/images/start.png)
+![alt text](controllers/assets/images/start.png)
 
-- The user can only guess at letters, numbers or characters do not work.
-![alt text](assets/notvalied.png)
+- It is only possible for the user to guess at letters, numbers and characters do not work.
+![alt text](controllers/assets/images/not-valied-number.png)
 
-- The user can only guess the same letter once, in case of repeated guessing the game will say already guess. 
-![alt text](assets/alredyguess.png)
+- It is only possible for the user to guess the same letter once, if repeated guesses the game will say already guess.
+![alt text](controllers/assets/images/already-used.png)
 - If the letter guessed by the user is incorrect, the hangman picture will be populated piece by piece, starting from head to the legs.
-- If the user is unable to guess the word in 7 attempts, the hangman will be completed and the user will lose the game. If the user fails to guess the correct word, the correct word will be determined when the game is over. To replay the game, the user will need to chose Y/N and press enter and if Y the game will restart.
-![alt text](assets/sorry.png)
+- If the user is unable to guess the word in 7 attempts, the hangman will be completed and the user will have lost the game. If the user fails to guess the correct word, the correct word will be determined when the game is over. To replay the game, the user will need to chose Y/N and press enter and if Y the game will restart.
+![alt text](controllers/assets/images/lost.png)
 
-- If the user can guess the word, the user will receive a congratulations message and they will win the game. To replay the game, the user will need to chose Y/N and press enter and if Y the game will restart. If N is chose the game will not restart.
-![alt text](assets/right.png)
+- If the user can guess the word, the user will receive a congratulations message and they will have won the game. To replay the game, the user will need to chose Y/N and press enter and if Y the game will restart. If N is chose the game will not restart.
+![alt text](controllers/assets/images/won.png)
 
 
 ## Technologies used
@@ -42,29 +42,28 @@ Python
 
 ## Testing
 
-* Testing was done throughout the project mainly by running the program in the terminal as well as python debugger. I committed the codes to github after writing every new list or code.
+* Testing was done throughout the project mainly by running the program in the terminal. I tried to commit the codes to github after writing every new list or code.
 
-* I used the deployed site to manually type correct and incorrect data to validate and see how the program responded.
+* I used the deployed site to manually type correct and incorrect data to see how the game responded.
 
 ## Accessibility
 
-* The whole project was built using python, therefore no other langueges were used.
+* This project was built by using python, no other languages were therefore used.
 
 ## Issues and bugs
 - I realized that the user can write his name with both letters and numbers.
 
 ## Fixed bugs
 - problem: I had problems with dockstrings as I didn't understand where they should be.
-- Solution: I contacted the tutor who helped me and suggested pages where I could read about it.
-- problem: I had too many spaces in the code in various places.
-- Solution: I contacted tutor assistance who explained that it was only single spaces and not entire lines.
-- Other problems I've had have been typos or problems with the if, else, elif statements, but nothing that couldn't be solved.
+- Solution: I turned to slack and the internet in the search for the solution.
+- problem: I unindented spaces within the code.
+- Solution: I turned to slack and the internet in the search for the solution.
 
 
 
 ## Validator Testing
 I ran through my file in [](https://pep8ci.herokuapp.com/)
-![alt text](assets/pep8ci.png)
+![alt text](controllers/assets/images/pep-validator.png)
 
 ## Deployment
 
@@ -106,22 +105,13 @@ Python NodeJS
 [Kite] https://www.youtube.com/watch?v=m4nEnsavl6w
 My whole project is based on his youtube tutorial. however, I have tried to change a bit but have largely coded with him in his video.
 
-[Meyaal] https://github.com/Meyaal/Hangman-game/blob/main/run.py
-I used this for some code
-
 Pages I used to solve errors and other problems and some code: 
 https://stackoverflow.com/ 
 https://www.programiz.com/python-programming/docstrings
 https://www.edureka.co/blog/indentation-error-in-python/
-https://medium.com/@gdsc.cu/python-project-for-beginners-part-2-6f9f372e58da
-https://realpython.com/invalid-syntax-python/
 https://www.w3schools.com/python/python_conditions.asp
 https://www.geeksforgeeks.org/python-docstrings/
 
 ## Special Thanks
 
-A big thank you to tutor suport who helped me through this project with a lot of patience and always nice treatment.
-
-A big thank you to Liz_5P who was there with her incredible knowledge and supported me when it was most difficult. She's the best.
-
-A special thanks my mentor Martina Terlević which always makes me feel like I can pull this off. She always cheers me on and is there to support me all the way. She is a star.
+A big thank you to my mentor Jubril Akolade who helped me with planning and understading of this project.
