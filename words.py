@@ -22,4 +22,8 @@ word_list = [
     'plague',
     'aloof',
     'there',
+    'machete',
+    'diced',
+    'behemoth',
+    'rout',
 ]
